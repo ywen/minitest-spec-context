@@ -1,9 +1,10 @@
 require "minitest-spec-context/version"
+require 'minitest/spec'
 
-module Minitest
-  module Spec
-    module Context
-      # Your code goes here...
+module MiniTest
+  class Spec
+    def self.context(desc, additional_desc = nil, &block)
+      describe desc, additional_desc = nil, &block
     end
   end
 end

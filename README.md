@@ -1,6 +1,6 @@
 # Minitest::Spec::Context
 
-TODO: Write a gem description
+This gem provides a ```context``` method for MiniTest::Spec
 
 ## Installation
 
@@ -18,7 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+
+describe "#method" do
+  context "when condition 1" do
+    it "does something" do
+      ...
+    end
+  end
+  context "when condition 2" do
+    it "does something else" do
+      ...
+    end
+  end
+end
+```
+
+The ```context``` is not going to be available, but only in nested blocks
 
 ## Contributing
 
