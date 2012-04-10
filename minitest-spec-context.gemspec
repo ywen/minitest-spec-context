@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/minitest-spec-context/version', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = ["Yi Wen"]
   gem.email         = ["hayafirst@gmail.com"]
@@ -13,5 +11,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "minitest-spec-context"
   gem.require_paths = ["lib"]
-  gem.version       = Minitest::Spec::Context::VERSION
+  gem.version       = 0.0.2
 end

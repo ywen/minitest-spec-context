@@ -1,4 +1,3 @@
-require "minitest-spec-context/version"
 require 'minitest/spec'
 
 module MiniTest
