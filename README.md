@@ -34,7 +34,7 @@ describe "#method" do
 end
 ```
 
-The ```context``` is available only in nested blocks. You cannot use it in the outside most. I simply do not desire to add any more new methods in ruby ```Kernel```
+The ```context``` method is available only in the nested blocks. One cannot use it in the outside most block. I simply do not desire to introduce a new method in ruby ```Kernel``` module
 
 ## Contributing
 
