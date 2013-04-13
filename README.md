@@ -18,6 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
+Require the gem in the `test_helper`:
+
+```ruby
+require "minitest-spec-context"
+```
+
+And now you can use it:
+
 ```ruby
 
 describe "#method" do
