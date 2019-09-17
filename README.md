@@ -41,8 +41,18 @@ describe "#method" do
   end
 end
 ```
-
 The ```context``` method is available only in the nested blocks. One cannot use it in the outside most block. I simply do not desire to introduce a new method in ruby ```Kernel``` module
+
+The ```context``` method is also available on ```ActiveSupport::TestCase```, for use within Rails applications.
+
+
+```ruby
+class ActiveSupport::TestCase
+  context "when using Rails" do
+    ...
+  end
+end
+```
 
 ## Contributing
 
