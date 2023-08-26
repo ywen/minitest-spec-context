@@ -4,7 +4,7 @@ require_relative '../lib/minitest-spec-context'
 require 'active_support'
 require 'active_support/test_case'
 
-describe MiniTest::Spec do
+describe Minitest::Spec do
   describe ".context" do
     let(:object) { "44" }
     context "when nested with context method" do
