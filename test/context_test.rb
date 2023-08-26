@@ -9,7 +9,7 @@ describe Minitest::Spec do
     let(:object) { "44" }
     context "when nested with context method" do
       it "has the access to the variables defined outside" do
-        object.must_equal "44"
+        _(object).must_equal "44"
       end
     end
   end
@@ -20,7 +20,7 @@ class ActiveSupport::TestCase
     let(:object) { "44" }
     context "when nested with context method" do
       it "has the access to the variables defined outside" do
-        object.must_equal "44"
+        _(object).must_equal "44"
       end
     end
   end
