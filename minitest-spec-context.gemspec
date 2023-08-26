@@ -2,8 +2,8 @@
 Gem::Specification.new do |gem|
   gem.authors       = ["Yi Wen"]
   gem.email         = ["hayafirst@gmail.com"]
-  gem.description   = %q{Provides context method to MiniTest::Spec}
-  gem.summary       =  %q{Provides context method to MiniTest::Spec}
+  gem.description   = %q{Provides context method to Minitest::Spec}
+  gem.summary       =  %q{Provides context method to Minitest::Spec}
   gem.homepage      = "https://github.com/ywen/minitest-spec-context"
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.version       = '0.0.4'
 
   gem.add_development_dependency "activesupport", "~> 6.0"
+  gem.add_development_dependency "minitest"
 end

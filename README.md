@@ -1,6 +1,6 @@
 # Minitest::Spec::Context
 
-This gem provides a ```context``` method for MiniTest::Spec
+This gem provides a ```context``` method for Minitest::Spec
 
 ## Installation
 
